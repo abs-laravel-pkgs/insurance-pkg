@@ -1,0 +1,31 @@
+{
+    "name": "abs/insurance-pkg",
+    "description": "For insurancePolicy CRUD",
+    "type": "library",
+    "require":
+    {},
+    "require-dev":
+    {},
+    "authors": [
+    {
+        "name": "Abdul",
+        "email": "abdulpro@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "extra":
+    {
+        "laravel":
+        {
+            "providers": [
+                "Abs\\InsurancePkg\\InsurancePkgServiceProvider"
+            ]
+        }
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Abs\\InsurancePkg\\": "src/"
+        }
+    }
+}
