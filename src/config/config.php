@@ -1,4 +1,4 @@
 <?php
 return [
-	'DEV' => env('INSURANCE_PKG', false),
+	'DEV' => env('INSURANCE_PKG_DEV', false),
 ];
