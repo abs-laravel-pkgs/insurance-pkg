@@ -33,5 +33,5 @@
     var insurance_policy_card_list_template_url = '{{asset($insurance_pkg_prefix.'/public/themes/'.$theme.'/insurance-pkg/insurance-policy/card-list.html')}}';
     var insurance_policy_modal_form_template_url = '{{asset($insurance_pkg_prefix.'/public/themes/'.$theme.'/insurance-pkg/partials/insurance-policy-modal-form.html')}}';
 </script>
-<script type='text/javascript' src='{{asset($insurance_pkg_prefix.'/public/themes/'.$theme.'/insurance-pkg/insurance-policy/controller.js')}}'></script>
+<!-- <script type='text/javascript' src='{{asset($insurance_pkg_prefix.'/public/themes/'.$theme.'/insurance-pkg/insurance-policy/controller.js')}}'></script> -->
 
